@@ -188,49 +188,49 @@ Berikut adalah tangkapan layar aplikasi OneTasker pada berbagai halaman:
 ### 01. Splash Screen (Halaman Pembuka)
 Halaman pertama yang muncul saat membuka aplikasi dengan tema biru bermerek, logo OneTasker, slogan, dan tombol "Mulai Sekarang".
 
-![Splash Screen](screenshots/01_spalash.png)
+<img src="screenshots/01_spalash.png" width="300" />
 
 ---
 
 ### 02. Dashboard - Empty State
 Ditampilkan saat belum ada tugas. Menampilkan ikon kosong dan panduan menambah tugas pertama.
 
-![Dashboard Empty](screenshots/02_dashboard_empty.png)
+<img src="screenshots/02_dashboard_empty.png" width="300" />
 
 ---
 
 ### 03. Dashboard - Daftar Tugas
 Menampilkan daftar tugas dalam bentuk kartu (MaterialCardView) dengan tombol edit dan hapus inline, dilengkapi FloatingActionButton untuk menambah tugas.
 
-![Dashboard Tasks](screenshots/03_dashboard_tasks.png)
+<img src="screenshots/03_dashboard_tasks.png" width="300" />
 
 ---
 
 ### 04. Form Tambah Tugas
 Halaman untuk membuat tugas baru dengan Toolbar Material, TextInputLayout untuk nama dan deskripsi, serta tombol "Simpan Tugas".
 
-![Add Task](screenshots/04_add_task.png)
+<img src="screenshots/04_add_task.png" width="300" />
 
 ---
 
 ### 05. Form Edit Tugas
 Form serupa dengan halaman tambah, tetapi field sudah terisi dengan data tugas lama dan tombol berubah menjadi "Edit Tugas".
 
-![Edit Task](screenshots/05_edit_task.png)
+<img src="screenshots/05_edit_task.png" width="300" />
 
 ---
 
 ### 06. Dialog Konfirmasi Hapus
 AlertDialog yang muncul saat pengguna menekan tombol delete dengan pesan konfirmasi dan opsi Hapus/Batal.
 
-![Delete Confirm](screenshots/06_delete_confirm.png)
+<img src="screenshots/06_delete_confirm.png" width="300" />
 
 ---
 
 ### 07. Tab Profil Mahasiswa
 Halaman profil yang menampilkan informasi pembuat aplikasi (Nama, NIM, Prodi, Fakultas).
 
-![Profile Tab](screenshots/07_profile_tab.png)
+<img src="screenshots/07_profile_tab.png" width="300" />
 
 ---
 
