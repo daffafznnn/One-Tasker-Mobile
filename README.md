@@ -183,38 +183,54 @@ Setiap tugas direpresentasikan sebagai `String` dengan format:
 
 ## Tangkapan Layar
 
-Simpan tangkapan layar hasil emulator ke dalam folder `screenshots/` dengan penamaan berikut:
+Berikut adalah tangkapan layar aplikasi OneTasker pada berbagai halaman:
 
-| Nama File | Deskripsi Halaman |
-|---|---|
-| `screenshots/01_splash.png` | Halaman pembuka (Splash Screen) |
-| `screenshots/02_dashboard_empty.png` | Dashboard saat belum ada tugas |
-| `screenshots/03_dashboard_tasks.png` | Dashboard menampilkan daftar tugas |
-| `screenshots/04_add_task.png` | Formulir tambah tugas baru |
-| `screenshots/05_edit_task.png` | Formulir edit tugas yang sudah ada |
-| `screenshots/06_delete_confirm.png` | Dialog konfirmasi hapus tugas |
-| `screenshots/07_profile_tab.png` | Tab profil mahasiswa |
+### 01. Splash Screen (Halaman Pembuka)
+Halaman pertama yang muncul saat membuka aplikasi dengan tema biru bermerek, logo OneTasker, slogan, dan tombol "Mulai Sekarang".
 
-### Contoh Tampilan
+![Splash Screen](screenshots/01_spalash.png)
 
-> **Catatan:** Tangkapan layar di bawah ini akan tersedia setelah aplikasi dijalankan pada emulator atau perangkat fisik. Simpan gambar hasil *screenshot* ke folder `screenshots/` sesuai penamaan di atas.
+---
 
-```
-[ Splash Screen ]          [ Dashboard ]           [ Tambah Tugas ]
-┌─────────────┐            ┌─────────────┐          ┌─────────────┐
-│             │            │ Daftar Tugas│          │← Tambah     │
-│  🔵 BIRU    │            │─────────────│          │  Tugas Baru │
-│             │            │ ┌─────────┐ │          │─────────────│
-│  OneTasker  │            │ │Tugas 1  │ │          │ Nama Tugas  │
-│             │            │ │Desc  ✏🗑│ │          │ [          ]│
-│ Kelola      │            │ └─────────┘ │          │             │
-│ Tugasmu     │            │ ┌─────────┐ │          │ Deskripsi   │
-│ dengan Mudah│            │ │Tugas 2  │ │          │ [          ]│
-│             │            │ │Desc  ✏🗑│ │          │             │
-│             │            │ └─────────┘ │          │ [Simpan    ]│
-│[Mulai Sekar]│            │         [+] │          └─────────────┘
-└─────────────┘            └─────────────┘
-```
+### 02. Dashboard - Empty State
+Ditampilkan saat belum ada tugas. Menampilkan ikon kosong dan panduan menambah tugas pertama.
+
+![Dashboard Empty](screenshots/02_dashboard_empty.png)
+
+---
+
+### 03. Dashboard - Daftar Tugas
+Menampilkan daftar tugas dalam bentuk kartu (MaterialCardView) dengan tombol edit dan hapus inline, dilengkapi FloatingActionButton untuk menambah tugas.
+
+![Dashboard Tasks](screenshots/03_dashboard_tasks.png)
+
+---
+
+### 04. Form Tambah Tugas
+Halaman untuk membuat tugas baru dengan Toolbar Material, TextInputLayout untuk nama dan deskripsi, serta tombol "Simpan Tugas".
+
+![Add Task](screenshots/04_add_task.png)
+
+---
+
+### 05. Form Edit Tugas
+Form serupa dengan halaman tambah, tetapi field sudah terisi dengan data tugas lama dan tombol berubah menjadi "Edit Tugas".
+
+![Edit Task](screenshots/05_edit_task.png)
+
+---
+
+### 06. Dialog Konfirmasi Hapus
+AlertDialog yang muncul saat pengguna menekan tombol delete dengan pesan konfirmasi dan opsi Hapus/Batal.
+
+![Delete Confirm](screenshots/06_delete_confirm.png)
+
+---
+
+### 07. Tab Profil Mahasiswa
+Halaman profil yang menampilkan informasi pembuat aplikasi (Nama, NIM, Prodi, Fakultas).
+
+![Profile Tab](screenshots/07_profile_tab.png)
 
 ---
 
