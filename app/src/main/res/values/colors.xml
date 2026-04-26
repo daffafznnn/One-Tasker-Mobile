@@ -7,4 +7,15 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    
+    <!-- OneTasker Theme Colors (Modern Blue) -->
+    <color name="colorPrimary">#3D5AFE</color>
+    <color name="colorPrimaryDark">#1939B7</color>
+    <color name="colorAccent">#7C4DFF</color>
+    <color name="colorBackground">#F0F4FF</color>
+    <color name="colorSurface">#FFFFFF</color>
+    <color name="colorTextPrimary">#0D0D0D</color>
+    <color name="colorTextSecondary">#6B7280</color>
+    <color name="colorBorder">#E5E7EB</color>
+    <color name="colorDestructive">#EF4444</color>
 </resources>

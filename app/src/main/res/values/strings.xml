@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">OneTasker</string>
+    <string name="welcome_text">Kelola Tugasmu dengan Mudah</string>
+    <string name="btn_start">Mulai Sekarang</string>
+    <string name="title_dashboard">Daftar Tugas Saya</string>
+    <string name="hint_task_name">Nama Tugas</string>
+    <string name="hint_task_desc">Deskripsi Singkat</string>
+    <string name="btn_save">Simpan Tugas</string>
+    <string name="edit_task">Edit Tugas</string>
+    <string name="delete_task">Hapus</string>
+    <string name="confirm_delete">Apakah kamu yakin ingin menghapus tugas ini?</string>
+    <string name="profile_title">Profil Mahasiswa</string>
+    <string name="title_add_task">Tambah Tugas Baru</string>
+    <string name="title_edit_task">Edit Tugas</string>
+    <string name="label_task_name">Nama Tugas</string>
+    <string name="label_task_desc">Deskripsi (opsional)</string>
+    <string name="no_tasks_title">Belum ada tugas</string>
+    <string name="no_tasks_desc">Ketuk tombol + untuk menambahkan tugas pertamamu</string>
+    <string name="btn_add_task">Tambah Tugas</string>
 </resources>

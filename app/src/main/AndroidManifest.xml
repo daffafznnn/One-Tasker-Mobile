@@ -12,9 +12,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.OneTasker">
         <activity
-            android:name=".MainActivity"
+            android:name=".SplashActivity"
             android:exported="true"
-            android:label="@string/app_name"
             android:theme="@style/Theme.OneTasker">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,6 +21,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        
+        <activity
+            android:name=".DashboardActivity"
+            android:exported="false"
+            android:theme="@style/Theme.OneTasker" />
+        
+        <activity
+            android:name=".AddTaskActivity"
+            android:exported="false"
+            android:theme="@style/Theme.OneTasker" />
     </application>
 
 </manifest>
